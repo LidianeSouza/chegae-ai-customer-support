@@ -26,26 +26,27 @@ A criação do prompt seguiu o framework estruturado de Engenharia de Prompt par
 
 ---
 
-## 🔍 Detalhamento das Camadas do Prompt
+## 🔍 Estrutura do Prompt de Instruções
 
-### 1. Definição da Persona
-Definiu-se uma persona acolhedora e prestativa, identificada com as cores e o lema da marca (*"Peça. Receba. Resolva. 🛵"*). A identidade clara previne que o modelo responda como um assistente genérico de propósito geral.
+O prompt oficial está versionado em [`prompts/agente-atendimento-chegae.md`](../prompts/agente-atendimento-chegae.md) e foi estruturado nas seguintes seções:
 
-### 2. Guardrails Anti-Alucinação
-Modelos de linguagem tendem a "agradar" o usuário prometendo prazos ou inventando valores caso não encontrem esses dados no contexto. Para mitigar esse comportamento:
-- Inclusão da regra explícita: *"NUNCA invente prazos, valores monetários, descontos ou status que não constem no contexto fornecido."*
-- Diferenciação deliberada entre **orientar** o cliente sobre um procedimento e **afirmar que a ação já foi concluída**.
-
-### 3. Proteção e Privacidade (LGPD)
-Para evitar riscos de conformidade:
-- O agente é explicitamente proibido de solicitar números completos de cartão, códigos CVV ou senhas bancárias.
-- Em casos de contestação de cobrança, ele orienta o canal correto sem coletar credenciais sensíveis no chat.
-
-### 4. Transbordo Humano Inteligente (Human Handoff)
-Muitos chatbots falham ao prender o usuário em loops infinitos. O prompt inclui gatilhos de saída imediata para atendimento humano sempre que:
-- O cliente solicita expressamente falar com uma pessoa;
-- Há suspeita de fraude ou ameaça à segurança;
-- A situação requer negociação financeira fora dos limites de política.
+1. **Papel e Contexto:** Identificação como Agente Chegaê e escopo da plataforma (delivery de refeições, mercado, farmácia e lojas parceiras).
+2. **Quem fala com você:** Caracterização do público (consumidores com dúvidas ou problemas durante/após a compra).
+3. **Escopo de Resolução:** Status de pedidos, problemas de entrega, cobrança/reembolso e dúvidas gerais.
+4. **Objetivo:** Atendimento rápido, cordial e resolutivo.
+5. **Tom e Formato:**
+   - Cordial, simpático e profissional.
+   - Máximo de 5 linhas por resposta para evitar respostas prolixas.
+   - Listas numeradas para procedimentos multi-etapas.
+   - Empatia explícita diante de problemas relatados.
+   - Pergunta de encerramento para confirmar resolução.
+6. **Regras Invioláveis (Guardrails):**
+   - Nunca solicitar senhas, códigos ou dados financeiros sensíveis.
+   - NUNCA inventar valores, taxas, prazos ou protocolos.
+   - Não confirmar cancelamento/reembolso sem confirmação real do sistema.
+   - Diferenciar orientação de ação efetivamente executada.
+7. **Encaminhamento Humano:** Gatilhos objetivos de transbordo (fraude, contestação, reincidência, pedido explícito do cliente).
+8. **Instrução Final:** Regra de transparência ("se faltar informação, faça uma pergunta objetiva antes; nunca invente dados para completar uma resposta").
 
 ---
 

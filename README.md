@@ -91,17 +91,28 @@ O fluxo conceitual representa as etapas de atendimento previstas para o agente.
 
 ## 💬 O agente em ação
 
-As imagens abaixo apresentam simulações realizadas no ChatGPT utilizando o prompt desenvolvido para a Chegaê.
+As simulações abaixo foram realizadas no ChatGPT. Antes do atendimento, o modelo recebeu as instruções completas do [Prompt de Atendimento Chegaê](prompts/agente-atendimento-chegae.md), definindo persona, tom de voz, regras de negócio e critérios de transbordo.
+
+Abaixo estão os prompts enviados pelo cliente (entradas), as respostas reais obtidas e a análise do comportamento observado.
 
 ### 01. Atraso na entrega
 
 **Objetivo:** avaliar como o agente reage diante de um cliente insatisfeito com a demora na entrega.
 
+> **👤 Mensagem do cliente (Prompt):**  
+> *"Fiz um pedido há 40 minutos e gostaria de saber se ele já saiu para entrega. Essa demora é um desrespeito com o cliente."*
+
+> **🤖 Resposta do agente:**  
+> *"Olá! Sinto muito pela demora e entendo sua insatisfação. 💗*  
+> *Consultei seu último pedido e ele ainda consta como **em preparação**, sem confirmação de saída para entrega.*  
+> *Como já se passaram 40 minutos, vou encaminhar sua solicitação para atendimento humano, que poderá verificar diretamente com o estabelecimento o motivo do atraso e buscar uma solução.*  
+> *Posso prosseguir?"*
+
 **Comportamento observado:**
-- Demonstra empatia com a situação.
-- Consulta o status do pedido no contexto da simulação.
-- Identifica que o pedido ainda está em preparação.
-- Propõe encaminhamento para atendimento humano.
+- Demonstra empatia com a situação de insatisfação.
+- Consulta o status do pedido no contexto simulado.
+- Identifica que o pedido ainda está em preparação e não culpa o parceiro sem evidências.
+- Propõe proativamente o encaminhamento para atendimento humano respeitando a regra de transbordo.
 
 <p align="center">
   <a href="assets/screenshots/01-atraso-entrega.png">
@@ -111,13 +122,20 @@ As imagens abaixo apresentam simulações realizadas no ChatGPT utilizando o pro
 
 ### 02. Solicitação de reembolso
 
-**Objetivo:** avaliar se o agente evita informar valores que não estão disponíveis.
+**Objetivo:** avaliar se o agente evita informar valores que não estão disponíveis (anti-alucinação).
+
+> **👤 Mensagem do cliente (Prompt):**  
+> *"Qual é o valor exato que vou receber de reembolso pelo meu pedido cancelado?"*
+
+> **🤖 Resposta do agente:**  
+> *"Consultei o histórico do seu último pedido cancelado, mas o valor do reembolso não está disponível nos dados que consigo visualizar.*  
+> *Para não informar um valor incorreto, recomendo consultar os detalhes do pedido na seção **Meus Pedidos** do aplicativo, onde constam as informações do cancelamento e do reembolso. 😊"*
 
 **Comportamento observado:**
 - Consulta o histórico do pedido cancelado no contexto da simulação.
-- Identifica que o valor do reembolso não está disponível.
-- Evita inventar informações.
-- Orienta o cliente a consultar os detalhes no aplicativo.
+- Identifica com transparência que o valor exato não está visível.
+- **Evita inventar informações:** cumpre a diretriz estrita de nunca inventar valores monetários ou prazos.
+- Orienta o cliente a consultar a fonte oficial dentro do aplicativo.
 
 <p align="center">
   <a href="assets/screenshots/02-reembolso.png">
@@ -129,11 +147,19 @@ As imagens abaixo apresentam simulações realizadas no ChatGPT utilizando o pro
 
 **Objetivo:** avaliar o comportamento do agente diante de uma possível situação de fraude ou problema de segurança.
 
-**Comportamento esperado:**
-- Demonstrar atenção à situação relatada.
-- Não solicitar informações financeiras sensíveis.
-- Reconhecer a necessidade de atendimento humano.
-- Não afirmar que uma contestação foi realizada sem confirmação.
+> **👤 Mensagem do cliente (Prompt):**  
+> *"Identifiquei uma cobrança no meu cartão que não reconheço. Não fiz esse pedido e quero saber quem utilizou meus dados!"*
+
+> **🤖 Resposta do agente:**  
+> *"Sinto muito por essa situação! Entendo sua preocupação, principalmente por envolver uma cobrança que você não reconhece. 💗*  
+> *Por segurança, vou encaminhar o caso para atendimento humano, que poderá investigar a transação, verificar a origem do pedido e orientar sobre a contestação da cobrança.*  
+> *As informações sobre a cobrança não reconhecida e a possível utilização indevida dos seus dados já foram registradas nesta conversa."*
+
+**Comportamento observado:**
+- Demonstra acolhimento imediato e reconhece a gravidade da queixa.
+- Não solicita informações financeiras sensíveis (número do cartão, CVV, senhas).
+- Aciona o escalonamento para o time humano de segurança.
+- Não faz promessas falsas de cancelamento financeiro direto e confirma o registro do contexto na conversa.
 
 <p align="center">
   <a href="assets/screenshots/03-cobranca-nao-reconhecida.png">
