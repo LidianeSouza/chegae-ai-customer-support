@@ -74,7 +74,11 @@ O objetivo foi criar instruções que reduzissem respostas genéricas, informaç
 
 O fluxo conceitual representa as etapas de atendimento previstas para o agente.
 
-![Diagrama de funcionamento do agente](assets/portfolio/diagrama-funcionamento.png)
+<p align="center">
+  <a href="assets/portfolio/diagrama-funcionamento.png">
+    <img src="assets/portfolio/diagrama-funcionamento.png" width="85%" alt="Diagrama de funcionamento do agente">
+  </a>
+</p>
 
 **Etapas principais:**
 
@@ -152,7 +156,11 @@ Os principais critérios de avaliação foram:
 | Limites | Reconhecer quando não consegue resolver uma situação |
 | Encaminhamento | Identificar casos que exigem atendimento humano |
 
-![Painel de testes](assets/portfolio/painel-testes.png)
+<p align="center">
+  <a href="assets/portfolio/painel-testes.png">
+    <img src="assets/portfolio/painel-testes.png" width="85%" alt="Painel de testes">
+  </a>
+</p>
 
 Os testes foram avaliados manualmente. A avaliação não representa métricas automatizadas nem resultados de produção.
 
@@ -170,7 +178,11 @@ A solução proposta foi desenvolver um agente orientado por instruções espec�
 - Diferenciar orientações de operações efetivamente realizadas.
 - Priorizar a segurança dos dados do consumidor.
 
-![Estudo de caso Chegaê](assets/portfolio/estudo-de-caso.png)
+<p align="center">
+  <a href="assets/portfolio/estudo-de-caso.png">
+    <img src="assets/portfolio/estudo-de-caso.png" width="85%" alt="Estudo de caso Chegaê">
+  </a>
+</p>
 
 ## 🛠️ Tecnologias e ferramentas
 

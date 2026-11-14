@@ -52,6 +52,16 @@ As simulações foram executadas no ambiente do ChatGPT utilizando o System Prom
 
 ---
 
+## 📊 Painel Geral de Testes
+
+<p align="center">
+  <a href="../assets/portfolio/painel-testes.png">
+    <img src="../assets/portfolio/painel-testes.png" width="90%" alt="Painel de Testes Chegaê">
+  </a>
+</p>
+
+---
+
 ## 📊 Conclusões dos Testes
 
 O agente demonstrou consistência na adesão às diretrizes do prompt. As respostas mantiveram o tom da marca, evitaram alucinações de dados monetários e priorizaram a segurança do cliente em cenários críticos.

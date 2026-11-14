@@ -38,6 +38,12 @@ O fluxo foi desenhado para assegurar que cada interação passe por camadas de v
 [ Resposta ao Cliente / Próximo Passo ]
 ```
 
+<p align="center">
+  <a href="../assets/portfolio/diagrama-funcionamento.png">
+    <img src="../assets/portfolio/diagrama-funcionamento.png" width="90%" alt="Diagrama de funcionamento do agente">
+  </a>
+</p>
+
 ---
 
 ## 🧩 Componentes do Sistema

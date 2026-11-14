@@ -6,6 +6,12 @@ O atendimento ao cliente em aplicativos de entrega opera sob alta volatilidade e
 
 O projeto **Chegaê — AI Customer Support** demonstra como uma abordagem estruturada de **Engenharia de Prompt** permite construir uma camada inteligente de primeiro nível de atendimento com IA generativa, reduzindo o tempo de resposta e garantindo conformidade com regras corporativas e de segurança.
 
+<p align="center">
+  <a href="../assets/portfolio/estudo-de-caso.png">
+    <img src="../assets/portfolio/estudo-de-caso.png" width="90%" alt="Estudo de Caso Chegaê">
+  </a>
+</p>
+
 ---
 
 ## 🎯 Desafio de Negócio
