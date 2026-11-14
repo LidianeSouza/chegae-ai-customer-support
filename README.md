@@ -58,20 +58,16 @@ Seu agente de atendimento foi pensado para auxiliar consumidores em situações 
 
 O desenvolvimento começou pela Engenharia de Prompt, com a definição de instruções para orientar o comportamento do modelo.
 
-### 📐 Anatomia Modular do Prompt
+### 📐 Estrutura de Engenharia do Prompt
 
-```mermaid
-flowchart TD
-    subgraph Prompt["🧠 Estrutura de Engenharia do Prompt Chegaê"]
-        direction TB
-        P1["<b>1. Papel & Contexto</b><br>• Identidade Chegaê • Atendimento em delivery & conveniência"]
-        P2["<b>2. Tom & Formato</b><br>• Cordial e direto • Máx. 5 linhas • Listas numeradas • Empatia"]
-        P3["<b>3. Guardrails & Segurança</b><br>• NUNCA inventar valores, prazos ou taxas<br>• Zero coleta de senhas ou dados de cartão (LGPD)"]
-        P4["<b>4. Matriz de Transbordo</b><br>• Suspeita de fraude / contestação<br>• Pedido explícito de atendimento humano"]
-        
-        P1 --> P2 --> P3 --> P4
-    end
-```
+O comportamento do modelo foi orientado a partir de uma estrutura modular de diretrizes e guardrails:
+
+| Camada do Prompt | Foco da Instrução | Diretrizes Aplicadas |
+|---|---|---|
+| 🎭 **1. Papel & Contexto** | Identidade da Marca | Representar a Chegaê; foco em delivery de refeições, mercado, farmácia e conveniência. |
+| 💬 **2. Tom & Formato** | Experiência do Cliente | Cordialidade, linguagem simples e próxima, empatia ativa, **máximo de 5 linhas** e listas numeradas. |
+| 🛡️ **3. Guardrails Críticos** | Segurança & Anti-alucinação | **Proibido inventar prazos, valores ou taxas**; nunca solicitar senhas ou dados de cartão (LGPD). |
+| 🚨 **4. Matriz de Transbordo** | Limites Operacionais | Encaminhamento para atendimento humano em suspeitas de fraude, contestações ou pedido do cliente. |
 
 <details>
   <summary>📜 <b>Clique aqui para visualizar o Prompt de Instruções completo (System Prompt)</b></summary>
