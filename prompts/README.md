@@ -8,15 +8,17 @@ Esta pasta reúne as instruções utilizadas na configuração do agente **Cheg�
 
 Contém o prompt principal do agente Chegô, incluindo:
 
-- Papel e contexto de atuação;
+- Identidade e contexto de atuação;
 - Público atendido;
 - Escopo de atendimento;
+- Orientações de integração com a plataforma;
+- Objetivos do agente;
 - Tom e formato das respostas;
-- Regras de negócio e segurança;
+- Regras de atendimento e segurança;
 - Critérios para encaminhamento humano.
 
 ## Objetivo
 
-Documentar a construção das instruções que orientam o comportamento do modelo de linguagem durante as simulações de atendimento.
+Documentar as instruções que orientam o comportamento do modelo de linguagem durante as simulações de atendimento.
 
-O prompt foi desenvolvido e refinado por meio de experimentações no ChatGPT.
+O prompt foi desenvolvido e refinado por meio de experimentações manuais no ChatGPT.
