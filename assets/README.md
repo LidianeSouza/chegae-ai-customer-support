@@ -1,19 +1,26 @@
 # 🎨 Assets — Chegaê
 
-Esta pasta reúne os recursos visuais utilizados na apresentação e documentação do projeto.
+Esta pasta reúne os recursos visuais utilizados na apresentação e documentação do projeto **Chegô**, agente de atendimento ao cliente da plataforma fictícia **Chegaê**.
 
-## Organização
+## 📁 Organização
 
 | Pasta | Conteúdo |
 |---|---|
-| `logo/` | Logo e elementos da identidade visual Chegaê |
-| `screenshots/` | Capturas reais das simulações de atendimento |
-| `portfolio/` | Diagramas, painel de testes e estudo de caso |
+| `logo/` | Logo e identidade visual da Chegaê |
+| `screenshots/` | Capturas das simulações de atendimento realizadas no ChatGPT |
+| `portfolio/` | Diagrama de funcionamento, painel de testes e imagem do estudo de caso |
 
-## Identidade visual
+## 🎨 Identidade Visual
 
-A identidade da Chegaê utiliza roxo e laranja como cores principais, com uma proposta visual moderna, tecnológica e futurista.
+A identidade visual da Chegaê utiliza roxo e laranja como cores principais, com uma proposta moderna, tecnológica e futurista.
 
-## Utilização
+## 🖼️ Utilização
 
-Os arquivos desta pasta são utilizados no README principal e nos documentos do projeto para facilitar a compreensão visual do desenvolvimento do agente.
+Os recursos visuais são utilizados no README principal e nos documentos do projeto para ilustrar a identidade da plataforma, o funcionamento conceitual do agente e os resultados observados durante as simulações.
+
+---
+
+<p align="center">
+  <strong>CHEGAÊ</strong><br>
+  <em>Precisou? Chegaê! 💜🧡</em>
+</p>
