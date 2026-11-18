@@ -1,6 +1,6 @@
 # 04. Construção e Engenharia de Prompt
 
-Este documento explica as decisões técnicas, a metodologia e as iterações adotadas no desenvolvimento do System Prompt do agente da **Chegaê**.
+Este documento explica as decisões técnicas, a metodologia e as iterações adotadas no desenvolvimento do System Prompt do agente **Chegô**, assistente virtual da **Chegaê**.
 
 ---
 
@@ -30,7 +30,7 @@ A criação do prompt seguiu o framework estruturado de Engenharia de Prompt par
 
 O prompt oficial está versionado em [`prompts/agente-atendimento-chegae.md`](../prompts/agente-atendimento-chegae.md) e foi estruturado nas seguintes seções:
 
-1. **Papel e Contexto:** Identificação como Agente Chegaê e escopo da plataforma (delivery de refeições, mercado, farmácia e lojas parceiras).
+1. **Papel e Contexto:** Identificação como agente **Chegô** e escopo da plataforma **Chegaê** (delivery de refeições, mercado, farmácia e lojas parceiras).
 2. **Quem fala com você:** Caracterização do público (consumidores com dúvidas ou problemas durante/após a compra).
 3. **Escopo de Resolução:** Status de pedidos, problemas de entrega, cobrança/reembolso e dúvidas gerais.
 4. **Objetivo:** Atendimento rápido, cordial e resolutivo.

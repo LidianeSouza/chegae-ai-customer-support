@@ -1,6 +1,6 @@
 # 02. Arquitetura Conceitual do Agente
 
-Este documento descreve a arquitetura conceitual e o fluxo lógico de decisão do agente de atendimento da **Chegaê**.
+Este documento descreve a arquitetura conceitual e o fluxo lógico de decisão do agente **Chegô**, assistente de atendimento da plataforma **Chegaê**.
 
 ---
 

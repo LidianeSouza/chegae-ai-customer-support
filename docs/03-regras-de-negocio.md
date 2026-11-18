@@ -1,6 +1,6 @@
 # 03. Regras de Negócio e Políticas de Atendimento
 
-Este documento detalha as diretrizes de negócio que orientam a tomada de decisão do agente de atendimento da **Chegaê**.
+Este documento detalha as diretrizes de negócio que orientam a tomada de decisão do agente **Chegô**, assistente de atendimento da plataforma **Chegaê**.
 
 ---
 

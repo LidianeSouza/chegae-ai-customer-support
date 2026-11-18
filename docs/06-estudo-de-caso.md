@@ -1,10 +1,10 @@
-# 06. Estudo de Caso — Agente de Atendimento Chegaê
+# 06. Estudo de Caso — Agente Chegô | Chegaê
 
 ## 📖 Resumo Executivo
 
 O atendimento ao cliente em aplicativos de entrega opera sob alta volatilidade e pressão de tempo. Problemas como atrasos, extravios e falhas de pagamento exigem respostas imediatas para preservar a lealdade da marca e evitar churn.
 
-O projeto **Chegaê — AI Customer Support** demonstra como uma abordagem estruturada de **Engenharia de Prompt** permite construir uma camada inteligente de primeiro nível de atendimento com IA generativa, reduzindo o tempo de resposta e garantindo conformidade com regras corporativas e de segurança.
+O projeto apresenta o desenvolvimento do **Chegô**, agente virtual da plataforma **Chegaê**, demonstrando como uma abordagem estruturada de **Engenharia de Prompt** permite construir uma camada inteligente de primeiro nível de atendimento com IA generativa, reduzindo o tempo de resposta e garantindo conformidade com regras corporativas e de segurança.
 
 <p align="center">
   <a href="../assets/portfolio/estudo-de-caso.png">

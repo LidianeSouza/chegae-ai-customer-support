@@ -1,6 +1,6 @@
 # 05. Testes e Avaliação de Resultados
 
-Este documento apresenta a metodologia de teste, os cenários executados e a análise qualitativa das respostas geradas pelo agente da **Chegaê**.
+Este documento apresenta a metodologia de teste, os cenários executados e a análise qualitativa das respostas geradas pelo agente **Chegô**, assistente virtual da plataforma **Chegaê**.
 
 ---
 

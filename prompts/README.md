@@ -1,12 +1,12 @@
 # 🧠 Prompts — Chegaê
 
-Esta pasta reúne as instruções utilizadas na configuração do agente de atendimento da Chegaê.
+Esta pasta reúne as instruções utilizadas na configuração do agente **Chegô**, assistente de atendimento da plataforma **Chegaê**.
 
 ## Arquivo disponível
 
 ### `agente-atendimento-chegae.md`
 
-Contém o prompt principal do agente, incluindo:
+Contém o prompt principal do agente Chegô, incluindo:
 
 - Papel e contexto de atuação;
 - Público atendido;

@@ -1,8 +1,8 @@
-# 01. Visão Geral do Projeto — Chegaê
+# 01. Visão Geral do Projeto — Chegô | Chegaê
 
 ## 🎯 Introdução
 
-O projeto **Chegaê — AI Customer Support Agent** nasceu da necessidade de explorar soluções modernas de inteligência artificial generativa aplicadas ao contexto de atendimento ao cliente em plataformas digitais de delivery e conveniência.
+O projeto consiste no desenvolvimento do **Chegô**, um agente virtual de atendimento ao cliente com IA generativa projetado para a **Chegaê**, uma plataforma digital fictícia de delivery e conveniência.
 
 Em plataformas de alto volume transacional, como aplicativos de entrega de comida, compras de mercado e farmácia, a experiência de pós-venda é um dos principais fatores de retenção de usuários. O objetivo deste protótipo é estruturar um agente conversacional capaz de atender demandas frequentes de forma rápida, empática e, sobretudo, segura.
 

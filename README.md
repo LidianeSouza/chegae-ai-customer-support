@@ -1,4 +1,4 @@
-<h1 align="center">💜 Chegaê — Agente de Atendimento ao Cliente com IA</h1>
+<h1 align="center">💜 Chegô — Agente de Atendimento ao Cliente com IA | Chegaê</h1>
 
 <p align="center">
   <img src="assets/logo/logo-chegae.png" alt="Logo Chegaê" width="420">
