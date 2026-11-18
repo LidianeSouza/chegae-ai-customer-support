@@ -115,7 +115,7 @@ Após a definição das instruções, o prompt foi utilizado em simulações de 
 
 Os cenários avaliados incluem atrasos na entrega, solicitações de reembolso e situações envolvendo cobranças não reconhecidas.
 
-Os resultados e aprendizados das simulações estão documentados em [`05-testes-e-resultados.md`](05-testes-e-resultados.md).
+Os resultados e aprendizados das simulações estão documentados em [`05-testes-e-resultados.md`](./05-testes-e-resultados.md).
 
 ---
 
