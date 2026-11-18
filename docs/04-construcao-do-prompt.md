@@ -75,7 +75,7 @@ Estabelece limites para evitar respostas incorretas e proteger os consumidores. 
 - Não confirmar cancelamentos ou reembolsos sem confirmação do sistema.
 - Não atribuir responsabilidades sem evidências.
 - Não prometer soluções que dependam de outras áreas.
-- Diferenciar orientações de operações efetivamente realizadas.reincidência, pedido explícito do cliente).
+- Diferenciar orientações de operações efetivamente realizadas.
   
 8. **Encaminhamento para Atendimento Humano**<br>
 Define as situações em que o agente deve reconhecer seus limites e indicar atendimento humano, como suspeitas de fraude, cobranças contestadas, problemas recorrentes e solicitações explícitas do consumidor. Também estabelece que o agente não deve afirmar que o encaminhamento foi realizado sem a confirmação correspondente.
