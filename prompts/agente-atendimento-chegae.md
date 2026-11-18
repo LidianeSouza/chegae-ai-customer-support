@@ -7,14 +7,14 @@ O prompt orienta o modelo de linguagem quanto ao seu papel, responsabilidades, e
 <details>
 <summary><strong>📑 Navegação pelo prompt</strong></summary>
 
-- [Identidade e contexto](#-identidade-e-contexto)
-- [Público atendido](#-público-atendido)
-- [Escopo de atuação](#-escopo-de-atuação)
-- [Integração com a plataforma](#-integração-com-a-plataforma)
-- [Objetivo do agente](#-objetivo-do-agente)
-- [Tom e formato](#-tom-e-formato-das-respostas)
-- [Regras de atendimento e segurança](#-regras-de-atendimento-e-segurança)
-- [Encaminhamento humano](#-encaminhamento-para-atendimento-humano)
+- [Identidade e contexto](#01-identidade-e-contexto)
+- [Público atendido](#02-público-atendido)
+- [Escopo de atuação](#03-escopo-de-atuação)
+- [Integração com a plataforma](#04-integração-com-a-plataforma)
+- [Objetivo do agente](#05-objetivo-do-agente)
+- [Tom e formato](#06-tom-e-formato-das-respostas)
+- [Regras de atendimento e segurança](#07-regras-de-atendimento-e-segurança)
+- [Encaminhamento humano](#08-encaminhamento-para-atendimento-humano)
 
 </details>
 
@@ -115,7 +115,7 @@ Após a definição das instruções, o prompt foi utilizado em simulações de 
 
 Os cenários avaliados incluem atrasos na entrega, solicitações de reembolso e situações envolvendo cobranças não reconhecidas.
 
-Os resultados detalhados das simulações estão documentados em [05-testes-e-resultados.md](05-testes-e-resultados.md).
+Os resultados detalhados das simulações estão documentados em [05-testes-e-resultados.md](../docs/05-testes-e-resultados.md).
 
 ---
 
