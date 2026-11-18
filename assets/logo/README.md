@@ -1,6 +1,9 @@
-# Assets - Logo & Marca
+# 🎨 Identidade Visual — Chegaê
 
-Coloque nesta pasta os arquivos de identidade visual da Chegaê:
-- `logo-chegae.png`: Logo oficial da Chegaê (tamanho recomendado: ~500x200px ou SVG/PNG transparente).
-- `mascote-chegae.png`: Ilustração do mascote da Chegaê.
+Esta pasta reúne os elementos da identidade visual da plataforma fictícia **Chegaê**.
 
+## Arquivos
+
+- `logo-chegae.png`: Logo da plataforma Chegaê, utilizada na apresentação do projeto.
+
+A identidade visual utiliza principalmente as cores roxo e laranja, reforçando a proposta moderna e tecnológica da marca.
