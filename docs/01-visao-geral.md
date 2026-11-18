@@ -2,21 +2,20 @@
 
 ## 🎯 Introdução
 
-O projeto consiste no desenvolvimento do **Chegô**, um agente virtual de atendimento ao cliente com Inteligência Artificial Generativa, projetado para a **Chegaê**, uma plataforma fictícia de delivery e conveniência.
+O projeto consiste no desenvolvimento do **Chegô**, um agente virtual de atendimento ao cliente com Inteligência Artificial Generativa, criado para a **Chegaê**, uma plataforma fictícia de delivery e conveniência.
 
-Em plataformas de entrega, a experiência de atendimento é importante para a satisfação e a confiança dos consumidores. O objetivo deste protótipo é estruturar um agente conversacional capaz de responder a solicitações frequentes de forma rápida, empática e segura.
+O objetivo é explorar como a Engenharia de Prompt pode orientar um modelo de linguagem a realizar atendimentos mais claros, empáticos e seguros, considerando diferentes situações enfrentadas pelos consumidores.
 
-O desenvolvimento utiliza técnicas de **Engenharia de Prompt** para definir o comportamento do agente, suas responsabilidades, regras de atendimento e limites de atuação.
+O desenvolvimento foi realizado por meio da construção de um **System Prompt**, com definição de identidade, escopo de atuação, tom de voz, regras de atendimento e limites de segurança.
 
 ---
 
 ## 🛵 Sobre a Plataforma Chegaê
 
-A Chegaê é uma empresa fictícia criada como ambiente de experimentação para Engenharia de Prompt e Inteligência Artificial Generativa.
+A Chegaê é uma empresa fictícia criada como contexto para o desenvolvimento e a experimentação do agente.
 
 - **Segmento:** Delivery de refeições, alimentos, conveniência, farmácia e varejo.
-- **Proposta:** Facilitar a experiência de compra e atendimento dos consumidores.
-- **Canais planejados:** Chat no aplicativo, WhatsApp e Webchat.
+- **Agente virtual:** Chegô.
 - **Slogan:** Precisou? Chegaê!
 
 ---
@@ -30,26 +29,32 @@ A Chegaê é uma empresa fictícia criada como ambiente de experimentação para
 
 ---
 
-## 💡 Proposta de Solução
+## 💡 Solução Desenvolvida
 
-Desenvolver um **Agente de Atendimento Guiado por Engenharia de Prompt**, utilizando um modelo de linguagem (LLM) com instruções específicas, regras de negócio e limites de atuação.
+Foi desenvolvido o **Chegô**, um agente de atendimento orientado por Engenharia de Prompt.
 
-A proposta considera um agente capaz de utilizar informações dos sistemas da plataforma para consultar pedidos e orientar os consumidores. Essa integração representa o modelo de funcionamento planejado, ainda não implementado tecnicamente neste protótipo.
+O System Prompt estabelece instruções para que o agente atue como se estivesse integrado aos sistemas da Chegaê, podendo consultar informações de pedidos, verificar dados e orientar solicitações dos consumidores.
 
-### Pilares Fundamentais
+A configuração também define:
 
-- **Empatia:** Reconhecer a situação do consumidor e responder de maneira cordial.
-- **Segurança:** Evitar solicitações de dados sensíveis e respeitar os limites de atuação.
-- **Precisão:** Não inventar informações, valores, prazos ou confirmações de operações.
-- **Transparência:** Informar claramente quando uma solicitação depende de consulta ou intervenção adicional.
-- **Encaminhamento humano:** Identificar situações que exigem atendimento especializado.
+- Identidade e contexto da plataforma.
+- Público atendido e escopo de atuação.
+- Tom de voz e formato das respostas.
+- Regras de negócio e segurança.
+- Limites de atuação e encaminhamento para atendimento humano.
 
 ---
 
 ## ⚙️ Escopo do Protótipo
 
-O protótipo foi desenvolvido e experimentado no ChatGPT, utilizando um System Prompt próprio para orientar as respostas do agente.
+O agente foi configurado e experimentado no ChatGPT por meio de simulações manuais de atendimento.
 
-As simulações contemplam situações como atrasos na entrega, solicitações de reembolso e cobranças não reconhecidas.
+As situações trabalhadas incluem:
 
-A integração com APIs, bancos de dados e sistemas reais de atendimento permanece como uma possibilidade de evolução do projeto.
+- Atrasos na entrega.
+- Solicitações de reembolso.
+- Cobranças não reconhecidas.
+
+O projeto demonstra a aplicação prática de Engenharia de Prompt na definição do comportamento de um agente conversacional, considerando um cenário de atendimento integrado aos sistemas de uma empresa fictícia.
+
+**Limitação técnica:** embora o modelo de atuação considere acesso aos sistemas da Chegaê, o protótipo não possui integração real com APIs, bancos de dados ou sistemas externos. As simulações foram realizadas no ambiente do ChatGPT.
