@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projeto-Protótipo-8B5CF6">
+  <img src="https://img.shields.io/badge/Projeto-Agente%20de%20IA-8B5CF6">
   <img src="https://img.shields.io/badge/IA-Generativa-FF782F">
   <img src="https://img.shields.io/badge/Prompt%20Engineering-LLMs-A855F7">
-  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-FF782F">
+  <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-22C55E">
 </p>
 
 ---
@@ -40,7 +40,6 @@ O desenvolvimento explora a estruturação de instruções, definição de regra
 - Simular diferentes situações de atendimento ao cliente.
 - Avaliar as respostas geradas pelo modelo.
 - Identificar limitações e oportunidades de melhoria.
-- Planejar a evolução do protótipo para uma solução funcional.
 
 ## 🛵 Conheça a Chegaê
 
@@ -250,21 +249,6 @@ A solução foi estruturar o **Chegô**, um agente virtual orientado por Engenha
 | Markdown | Documentação técnica |
 | Canva / ferramentas gráficas | Desenvolvimento dos materiais visuais |
 
-## 🚀 Próximos passos
-
-O projeto está em sua primeira etapa, focada na construção e avaliação do comportamento do agente por meio de Engenharia de Prompt.
-
-As próximas etapas planejadas são:
-
-- [ ] Ampliar os cenários de teste e avaliar situações mais complexas.
-- [ ] Refinar as instruções a partir dos resultados das avaliações.
-- [ ] Desenvolver uma versão funcional utilizando Python e uma API de LLM.
-- [ ] Criar uma base simulada de pedidos para consultas.
-- [ ] Explorar integração com ferramentas (Tool Calling).
-- [ ] Implementar testes automatizados para avaliar as respostas.
-- [ ] Explorar RAG para recuperação de informações de documentos e regras da plataforma.
-- [ ] Desenvolver métricas de qualidade e consistência.
-
 ## 📂 Estrutura do projeto
 
 ```text
@@ -310,9 +294,11 @@ As simulações também demonstraram a importância de avaliar as respostas, ide
 
 ## 📌 Status do projeto
 
-**Protótipo em desenvolvimento — Etapa de Engenharia de Prompt e simulações.**
+**Protótipo concluído — Engenharia de Prompt e simulações manuais.**
 
-O Chegô foi configurado e avaliado manualmente no ChatGPT. O projeto ainda não possui integração técnica com sistemas reais, API própria, banco de dados conectado ou implantação em produção.
+O Chegô foi configurado e experimentado no ChatGPT. Esta versão contempla a construção do System Prompt, a definição das regras de atendimento e a avaliação qualitativa de três cenários simulados.
+
+O protótipo não possui integração técnica com sistemas reais, API própria, banco de dados conectado ou implantação em produção.
 
 ---
 
