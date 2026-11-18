@@ -271,13 +271,33 @@ As próximas etapas planejadas são:
 chegae-ai-customer-support/
 │
 ├── README.md
+├── LICENSE
+│
 ├── prompts/
+│   ├── README.md
+│   └── agente-atendimento-chegae.md
+│
 ├── docs/
-├── tests/
+│   ├── README.md
+│   ├── 01-visao-geral.md
+│   ├── 02-arquitetura-do-agente.md
+│   ├── 03-regras-de-negocio.md
+│   ├── 04-construcao-do-prompt.md
+│   ├── 05-testes-e-resultados.md
+│   └── 06-estudo-de-caso.md
+│
 └── assets/
+    ├── README.md
     ├── logo/
-    ├── screenshots/
-    └── portfolio/
+    │   └── logo-chegae.png
+    ├── portfolio/
+    │   ├── diagrama-funcionamento.png
+    │   ├── painel-testes.png
+    │   └── estudo-de-caso.png
+    └── screenshots/
+        ├── 01-atraso-entrega.png
+        ├── 02-reembolso.png
+        └── 03-cobranca-nao-reconhecida.png
 ```
 
 ## 💡 Aprendizados
