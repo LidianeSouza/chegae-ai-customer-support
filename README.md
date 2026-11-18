@@ -1,21 +1,10 @@
 # 💜 Chegaê — AI Customer Support Agent
 
-<p align="center">
-  <img src="assets/logo/logo-chegae.png" alt="Logo Chegaê" width="220">
-</p>
+<p align="center">   <img src="assets/logo/logo-chegae.png" alt="Logo Chegaê" width="220"> </p>
 
-<h3 align="center">Peça. Receba. Resolva. 🛵</h3>
+<p align="center">   <strong>Um protótipo de agente de atendimento ao cliente desenvolvido com Engenharia de Prompt e Inteligência Artificial Generativa.</strong> </p>
 
-<p align="center">
-  <strong>Um protótipo de agente de atendimento ao cliente desenvolvido com Engenharia de Prompt e Inteligência Artificial Generativa.</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Projeto-Protótipo-8B5CF6">
-  <img src="https://img.shields.io/badge/IA-Generativa-FF782F">
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-Em%20desenvolvimento-A855F7">
-  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-FF782F">
-</p>
+<p align="center">   <img src="https://img.shields.io/badge/Projeto-Protótipo-8B5CF6">   <img src="https://img.shields.io/badge/IA-Generativa-FF782F">   <img src="https://img.shields.io/badge/Prompt%20Engineering-LLMs-A855F7">   <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-FF782F"> </p>
 
 ---
 
@@ -25,15 +14,18 @@ A **Chegaê** é uma empresa fictícia criada para o desenvolvimento de um proje
 
 Inspirada nas plataformas digitais de delivery e conveniência, a Chegaê conecta consumidores a restaurantes, supermercados, farmácias, lojas e outros estabelecimentos parceiros.
 
-O projeto consiste na criação de um **Agente de Atendimento ao Cliente com IA**, capaz de interpretar solicitações, identificar problemas e fornecer orientações de maneira cordial, objetiva e segura.
+O projeto consiste na criação de um **Agente de Atendimento ao Cliente com IA**, utilizando Engenharia de Prompt para orientar o comportamento de um modelo de linguagem em diferentes situações de atendimento.
 
-A proposta é explorar como a Engenharia de Prompt pode orientar o comportamento de um modelo de linguagem em situações reais de atendimento, considerando regras de negócio, limites de atuação, segurança e experiência do usuário.
+O agente, chamado **Chegô**, foi configurado para interpretar solicitações, oferecer orientações, demonstrar empatia e reconhecer situações que exigem atendimento humano.
+
+O desenvolvimento explora a estruturação de instruções, definição de regras de comportamento, limites de atuação e avaliação das respostas geradas por meio de simulações manuais no ChatGPT.
 
 ## 🎯 Objetivos
 
-- Desenvolver um agente de atendimento utilizando Engenharia de Prompt.
-- Definir papel, contexto, escopo e responsabilidades do agente.
-- Estabelecer regras de negócio e critérios de segurança.
+- Desenvolver um protótipo de agente de atendimento utilizando IA Generativa.
+- Aplicar técnicas de Engenharia de Prompt na estruturação de instruções para LLMs.
+- Definir papel, contexto, escopo, tom de comunicação e regras de comportamento.
+- Estabelecer limites para evitar respostas incorretas ou informações inventadas.
 - Simular diferentes situações de atendimento ao cliente.
 - Avaliar as respostas geradas pelo modelo.
 - Identificar limitações e oportunidades de melhoria.
