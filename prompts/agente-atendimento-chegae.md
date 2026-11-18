@@ -122,7 +122,7 @@ Os resultados detalhados das simulações estão documentados em [05-testes-e-re
 <p align="center">
   <strong>CHEGAÊ</strong>
   <br>
-  <em>Precisou? Chegaê! 💜🧡</em>
+  <em>Precisou? Chegô! 💜🧡</em>
   <br>
   <sub>Projeto de estudo em Engenharia de Prompt e Inteligência Artificial Generativa.</sub>
 </p>
