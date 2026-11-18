@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Precisou? Chegô!</strong>
+  <strong>Precisou? Chegaê!</strong>
   <br>
   Agilidade e inteligência no atendimento ao cliente.
 </p>
@@ -303,7 +303,7 @@ O protótipo não possui integração técnica com sistemas reais, API própria,
 ---
 
 <p align="center">
-  <strong>Chegaê — Precisou? Chegô! 💜🧡</strong>
+  <strong>Chegaê — Precisou? Chegaê! 💜🧡</strong>
   <br>
   Projeto desenvolvido para estudos e portfólio em Inteligência Artificial e Engenharia de IA.
 </p>
